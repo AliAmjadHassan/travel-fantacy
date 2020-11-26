@@ -36,6 +36,7 @@ import placeDetail from "./components/Places/PlacesToVisit";
 import RoomView from "./components/Admin/fragments/RoomView";
 import RoomDetail from "./components/Hotels/RoomDetail";
 import BookTour from './components/Bookings/BookTour'
+import Packages from './components/Packages/Packages'
 import './App.css';
 // const handlAddToCartClick = (title) => {
 //   alert("Add to cart clicked for " +title);
@@ -80,6 +81,7 @@ function App() {
           <Route path="/guide-dashboard" component={GuideDashboard} />
           <Route path="/HotelBooking/:id" component={HotelBooking} />
           <Route path="/book-tour" component={BookTour} />
+          <Route path="/travel-packages" component={Packages} />
           {/* <Route path="/sign-up" exact component={Signup} /> */}
           <Route path="/itinerary/:page/:perPage" component={Itinerary} />
           <Route path="/" exact component={LandingPage} />

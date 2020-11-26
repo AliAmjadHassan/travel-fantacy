@@ -55,6 +55,7 @@ class BookTours extends Component {
                         type="email"
                         name="email"
                         placeholder="Enter Your Email"
+                        
                       />
                       <FormFeedback>Oh no! Email can not be null</FormFeedback>
                     </FormGroup>

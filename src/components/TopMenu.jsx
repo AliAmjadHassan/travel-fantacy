@@ -103,6 +103,9 @@ const TopMenu = () => {
             <NavItem>
               <NavLink href="/Blog">Explore Our Blog</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/travel-packages">Packages</NavLink>
+            </NavItem>
           </Nav>
           <NavbarText>
             <NavLink
